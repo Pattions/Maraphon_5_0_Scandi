@@ -9,48 +9,46 @@
   </head>
   <header class="page-header">
     <div class="menu">
-      <a class="logo">
-        <img class="logo-img" src="images/logo.png" alt="Логотип компании SCANDI - графическое изображение торшера" width="25" height="25">
-        SCANDI
+      <a class="logo" href="#">
+        <img class="logo-img" src="images/logo.png" alt="Логотип компании SCANDI - графическое изображение торшера" width="25" height="25">        
       </a>
+        <span class="logo-text">SCANDI</span>
         <nav class="nav">          
-          <ul class="main-nav-list">
-            <li class="main-nav-item"><a class="main-nav-link" href="#about">О компании</a></li>
-            <li class="main-nav-item"><a class="main-nav-link" href="#portfolio">Портфолио</a></li>
-            <li class="main-nav-item"><a class="main-nav-link" href="#team">Команда</a></li>
-            <li class="main-nav-item"><a class="main-nav-link" href="#our-work">Как мы работаем</a></li>
-            <li class="main-nav-item"><a class="main-nav-link" href="#custome-review">Отзывы клиентов</a></li>
-            <li class="main-nav-item"><a class="main-nav-link" href="#order">Оставить заявку</a></li>
-          </ul>
+            <a class="main-nav-link" href="#about">О компании</a>
+            <a class="main-nav-link" href="#portfolio">Портфолио</a>
+            <a class="main-nav-link" href="#team">Команда</a>
+            <a class="main-nav-link" href="#our-work">Как мы работаем</a>
+            <a class="main-nav-link" href="#custome-review">Отзывы клиентов</a>
+            <a class="main-nav-link" href="#order">Оставить заявку</a>          
         </nav>        
         <a href="tel:+79818574624" class="tel">+7 (981) 857-46-24</a>        
     </div> <!-- .menu -->
+    <section class="intro">
+      
+        <div class="intro-text">
+          <h1 class="h1-header">
+            Поможем сделать вашу квартиру уютнее
+          </h1>
+          <p class="p-header">
+            Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим магазины и помогаем организовать доставку
+          </p>
+          <a class="button" href="#order">Оставить заявку</a>
+        </div>
+      
+    </section>
   </header>
   <main>
-    <section class="intro">
-      <div class="container">
-        <div class="intro-text">
-      <h1 class="h1-header">
-        Поможем сделать вашу квартиру уютнее
-      </h1>
-      <p class="p-header">
-        Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим магазины и помогаем организовать доставку
-      </p>
-       <a class="order-button-link" href="#order">Оставить заявку</a>
-      </div> 
-      </div>
-    </section>
-  
+      
     <section class="about">
-      <h2 id="about">о нас</h2>
+      <h2 id="about" class="about-title">о нас</h2>
       <div class="about-up">
         <aside class="left-about">
-          <figure>
+          
             <img src="images/image1inabout.jpg" alt="Премиальный европейский текстиль" width="445" height="465">
-          </figure>
+          
         </aside>
         <div class="about-text">
-          <p>
+          <p class="first-p-about-text">
             Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. Создавать неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то,  что по-настоящему вдохновляет дизайнеров нашей студии.
           </p>
           <p>
@@ -102,11 +100,9 @@
       <img src="images/image1portfolio.jpg" alt="Первая картинка портфолио" width="692" height="451">
       <img src="images/image2portfolio.jpg" alt="Вторая картинка портфолио" width="692" height="451">
       <img src="images/image3portfolio.jpg" alt="Третья картинка портфолио" width="488" height="451">
-      <div class="see-more">
-        <span class="see-more-text">
-          Смотреть ещё
-        </span>
-         <a class="see-more-link" href="#"><img src="images/arrowmore.svg" alt="Смотрите еще портфолио" width="60" height="0"></a>               
+      <div class="see-more">        
+         <a class="see-more-link" href="#">Смотреть ещё <img src="images/arrowmore.svg" alt="Смотрите еще портфолио"></a>
+         
       </div>
     </section>
     <section class="work-team">
@@ -235,7 +231,7 @@
           <br>          
           <input class="input-form-phone" type="tel" name="userPhone" placeholder="Введите телефон"  required>
           <br>
-          <button class="button-form-submit" type="submit">Оставить заявку</button>          
+          <button class="button" type="submit">Оставить заявку</button>          
         </form>
       </div>
       <aside class="order-right-side">

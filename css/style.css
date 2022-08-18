@@ -39,10 +39,45 @@ h6 {
   margin: 0;
 }
 
-.intro {
+.page-header {
   max-width: 1400px;
   height: 100vh;
+  padding-top: 35px;
   background-image: url(../images/header_background.jpg);
+  margin-bottom: 65px;
+}
+
+.menu {
+  display: flex;
+ 
+  align-items: center; 
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.logo-text {
+text-transform: uppercase;
+margin-right: 90px;
+}
+a, .logo-text {
+  text-decoration: none;
+  color: #533738;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.main-nav-link {
+  padding-right: 25px;
+}
+
+.tel {
+  padding-left: 10px;
+}
+
+.intro-text {
+  width: 536px;
+  height: 395px;
+  margin: 152px 681px 168px 182px ;
 }
 
 .h1-header {
@@ -55,16 +90,54 @@ h6 {
   margin-bottom: 35px;
 }
 
-a {
-  text-decoration: none;
-}
-
-.order-button-link {
-  
+.button {
 font-weight: 500;
 font-size: 20px;
 color: #533738;
 line-height: 1.2;
 padding: 25px 65px;
 background-color: #CC8B86;
+border: none;
+}
+
+.about-title {
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+text-transform: uppercase;
+color: #533738;
+text-align: center;
+margin-bottom: 40px;
+}
+
+.about-up {
+  display: flex;
+  
+  
+}
+
+.left-about {
+  margin-right: 60px;
+  margin-bottom: 20px;
+  margin-left: 180px;
+}
+
+.about-text {
+  margin-right: 180px;
+}
+
+.first-p-about-text {
+  margin-top: 0;
+}
+
+.see-more {
+  margin: 25px;
+  text-align: center;
+}
+
+.see-more-link {
+font-weight: 500;
+font-size: 30px;
+line-height: 37px;
+color: #533738;
 }

@@ -237,8 +237,7 @@ opacity: 1;
   position: absolute;
   top:50px;
   left: 50px;
-  padding-right: 40px;
-  
+  padding-right: 40px;  
 }
 
 .hover__title{  
@@ -247,7 +246,7 @@ opacity: 1;
   line-height: 37px;
   text-align: center;
   color: #FFFFFF;
-  /* align-self: center; */
+ 
 }
 
 .portfolio__paragraph {
@@ -255,8 +254,7 @@ opacity: 1;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
-  color: #FFFFFF;
-  
+  color: #FFFFFF;  
 }
 
 .see-more {  
